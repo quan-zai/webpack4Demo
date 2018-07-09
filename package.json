@@ -1,0 +1,18 @@
+{
+  "name": "webpack4demo",
+  "version": "1.0.0",
+  "description": "Get start to use webpack v4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode devlopment",
+    "build": "webpack --mode production"
+  },
+  "author": "quanzai",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
