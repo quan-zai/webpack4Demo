@@ -9,13 +9,13 @@ const htmlPlugin = new HtmlWebPackPlugin({
 const hmrPlugin =  new webpack.HotModuleReplacementPlugin();
 
 module.exports = {
-    entry: {
-        app: './src/index.js'
-    },
-    output: {
-        filename: '[name].boundle.js',
-        path: path.resolve(__dirname, 'dist')
-    },
+    // entry: {
+    //     app: './src/index.js'
+    // },
+    // output: {
+    //     filename: '[name].boundle.js',
+    //     path: path.resolve(__dirname, 'dist')
+    // },
     module: {
         rules: [
             {
